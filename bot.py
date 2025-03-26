@@ -12,8 +12,8 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
 # Правильно получаем токены
-TELEGRAM_BOT_TOKEN = os.getenv("8025483084:AAH_CgKKebA0UUi_mKEKzk82YenNSQ2Li4M")
-OPENAI_API_KEY = os.getenv("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")
+TELEGRAM_BOT_TOKEN = '8025483084:AAH_CgKKebA0UUi_mKEKzk82YenNSQ2Li4M'
+OPENAI_API_KEY = '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'
 
 
 # Устанавливаем ключ OpenAI
